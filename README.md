@@ -1,6 +1,7 @@
 # VerySimplePagination
-Very simple pagination vue script. Based on Bootstrap.
+Very simple to use pagination vue script. Based on Bootstrap.
 
+## Installation
 Current version require to be downloaded into components folder.
 Importing into app:
 
@@ -12,7 +13,8 @@ into export default object add:
     Pagination
   }
 
-Use:
+## Usage:
+
      <pagination
          :items="VariableWithContentToBePaginated"
          @page:update="updatePage"
